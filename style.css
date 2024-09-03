@@ -1,0 +1,241 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pronouns {
+  margin-left: 1.3rem;
+  padding: 0;
+  font-size: 0.7rem;
+}
+
+blockquote {
+  margin: 4rem 1.3rem;
+}
+    
+
+.homepage {
+  background-image: url(/img/me1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 80%;
+  display: flex;
+  flex-flow: row nowrap; 
+}
+
+.nametitle {
+  font-size: 10rem;
+  text-decoration: none;
+  color:black;
+  font-weight: bolder;
+}
+
+.nametitle:hover {
+  color: #FF358F;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 3rem;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover {
+  color: #FF358F;
+  transform: scale(1.2);
+}
+
+header {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 4rem;
+  border: 3px solid #FF358F;
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftside, .rightside, .mywork {
+  flex: 1 0 25%;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: #FF358F solid 3px;
+}
+
+iframe {
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+
+aside {
+  flex-basis: 33%;
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.top3 h3, .map h3 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0 0 0;
+}
+
+.wrapper {
+  background-color: white;
+  width: 80%;
+  margin: 1rem auto ;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: #FF358F solid 3px;
+}
+
+fieldset {
+  border: #FF358F solid 3px;
+  border-radius: 10px;
+}
+
+legend {
+  color: #FF358F;
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  display:block;
+  margin-bottom: 1rem;
+  width: 25rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  color: #FF358F;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px
+  
+}
+
+button:hover {
+  background-color: #FF358F;
+  cursor: pointer;
+  border-color: #FF358F;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.links a {
+  text-decoration: none; 
+  padding: 0 2rem;
+}
+
+.top3 li {
+  padding: 0.5rem 0 0 0;
+}
+
+.mywork {
+  padding: 0 2rem;
+}
+
+.project{
+  flex-direction: column;
+  flex-basis: 25%;
+  max-height: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.projects {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;*/
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.projects li {
+  list-style-type: none;
+  border: 3px solid #FF358F;
+  border-radius: 10px;
+  margin: 1rem 0;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.projects li:hover {
+  background-color: rgb(255, 225, 236);
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects a:hover {
+  color: #FF358F;
+  font-weight: bold;
+}
