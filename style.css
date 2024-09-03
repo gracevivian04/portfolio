@@ -35,7 +35,7 @@ blockquote {
     
 
 .homepage {
-  background-image: url(/img/me1.jpg);
+  background-image: url("img/me1.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 80%;
